@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <!-- <test name="Test">
+    <classes>
+          <class name="TestNGAnnotation.test1"/>
+          <class name="TestNGAnnotation.testng"/>
+    </classes>
+    </test>
+     -->
+    <parameter name="a" value="20"></parameter>
+    <parameter name="b" value="5"></parameter>
+    <test name="parameter pass">
+    <classes>
+    <class name="TestNG_Parameter.Addition"></class>
+    </classes>
+    </test>
+    <test name="parameter sun">
+    <classes>
+    <class name="TestNG_Parameter.Subtraction"></class>
+    </classes>
+    </test>
+    <test name="parameter ">
+    <classes>
+    <class name="TestNG_Parameter.Multip"></class>
+    </classes>
+    </test>
+</suite> <!-- Suite -->
